@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "scalr" {
-  ami                    = "ami-2757f631"
+  ami                    = "ami-03c3a7e4263fd998c"
   instance_type          = "t2.micro"
-  subnet_id              = "subnet-d5206699"
-  vpc_security_group_ids = ["sg-0c5100e692e446792"]
+  subnet_id              = "subnet-e29e30ae"
+  vpc_security_group_ids = ["sg-0dfeb78f7ec029a4d"]
   key_name               = "terraform"
 }
